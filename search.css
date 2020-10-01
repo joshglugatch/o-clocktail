@@ -1,0 +1,54 @@
+body {
+    background-position-y: 50px;
+    background-image: url("http://bgfons.com/uploads/wood/wood%20_texture528.jpg"); 
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+#searchInput{
+    background-color: whitesmoke;
+    margin-top: 60px;
+    
+    border: black 2px solid;
+    width: 800px;
+    position:absolute;
+    left: 50%
+}
+
+#searchBtn{
+    width: 40px;   
+}
+.btn{
+    background-color: black;
+    margin-left: 50%;
+}
+.card{
+    width: 800px;
+    background-color: whitesmoke;
+    position:absolute;
+    border: black 2px solid;
+    
+    left: 50%
+}
+.brand-logo {
+    height: auto;
+  }
+.page-footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.position{
+    position: relative;
+}
+.bottom {
+    font-family: 'Orbitron', sans-serif;;
+}
+#modal{
+    padding:20px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 10px;
+}

@@ -1,6 +1,18 @@
-// for CocktailBD API
-
 $(document).ready(function() {
+    var currentTime = moment().format('LT'); 
+    $('.time').html(currentTime);
     
-    
+
+
+var queryURL = "https://icanhazdadjoke.com/search?term=bar&limit=30"
+$.ajax({
+    url: queryURL,
+    dataType: 'json',
+    method: "GET"
+  }).then(function(response) {
+      console.log(response);
+      i = Math.floor(Math.random() * 11); 
+          $("#joke").append("<p>"+response.results[i].joke+"</p>") 
+  });
+
 });

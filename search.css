@@ -1,12 +1,10 @@
 body {
-    background-position-y: 100px;
+    background-position-y: 50px;
     background-image: url("http://bgfons.com/uploads/wood/wood%20_texture528.jpg"); 
     height: 100%;
     width: 100%;
   }
-  li{
-      margin-top: 20px;
-  }
+  
   
 #searchInput{
     background-color: whitesmoke;
@@ -15,17 +13,20 @@ body {
     border: black 2px solid;
     min-width: auto;
 }
-.nav-wrapper{
-    padding-bottom: 100px;
-}
+
 #searchBtn{
-    width: 40px;
-    
+    width: 40px;   
 }
 .btn{
     background-color: black;
     margin-left: 50%;
 }
 .card{
-    width: 1000px;
+    width: 800px;
+    position: absolute;
+    left: 35%;
+    background-color: whitesmoke;
 }
+.brand-logo {
+    height: auto;
+  }

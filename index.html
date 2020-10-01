@@ -42,22 +42,22 @@
 
     <!-- Navbar goes here -->
     <nav>
-
-      <div class="nav-wrapper #000000 black">
-        <a href="index.html"><img class="brand-logo center responsive-img"  src="Logo_4.PNG"></a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
+      <div class="nav-wrapper  #000000 black">
+          <a href="index.html"><img class="brand-logo center responsive-img"  src="Logo_4.PNG"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="left hide-on-med-and-down">
           <li><a href="index.html" class="#000000 black waves-light btn"><i class="material-icons left">home</i>Home</a></a></li>
-          <li><a href="recipes.html" class="#000000 black waves-light btn"><i class="material-icons left">local_bar</i>Featured Recipes</a></a></li>
+          <li><a href="featured.html" class="#000000 black waves-light btn"><i class="material-icons left">local_bar</i>Featured Drinks</a></a></li>
           <li><a href="search.html" class="#000000 black waves-light btn"><i class="material-icons left">search</i>Search</a></a></li> 
-         
-          
-          
-          <!-- <li><button class="contactBtn">Contact</button></li>
-          <li><button class="recipesBtn">Recipes</button></li>
-          <li><button class="searchBtn">Search</button></li> -->
-        </ul>
+      </ul>
       </div>
     </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <a href="index.html"><img class="brand-logo center responsive-img"  src="Logo_4.PNG"></a>
+      <li><a href="index.html" class="#000000 black waves-light btn"><i class="material-icons left">home</i>Home</a></a></li>
+      <li><a href="featured.html" class="#000000 black waves-light btn"><i class="material-icons left">local_bar</i>Featured Drinks</a></a></li>
+      <li><a href="search.html" class="#000000 black waves-light btn"><i class="material-icons left">search</i>Search</a></a></li> 
+  </ul>
  
     <!-- Page Layout here -->
 <div class="background">
@@ -121,6 +121,14 @@
 
     </div>
 </div>
+
+<footer class="page-footer">
+  <div class="footer-copyright">
+      <div id="joke" class="container center">
+      </div>
+      <span class="grey-text">O'Clocktail 2020</span>
+   </div>
+</footer>
      
 
 
@@ -145,7 +153,16 @@
   margin: 50px;
   margin-right: 10px;
 }
+
+.page-footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
   </style>
+  
     <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
       <script src="script.js"></script>
 <script>
@@ -156,6 +173,5 @@ $(document).ready(function(){
       
 </script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-<script src="script.js"></script>
 </body>
 </html>

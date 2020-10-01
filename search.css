@@ -9,9 +9,11 @@ body {
 #searchInput{
     background-color: whitesmoke;
     margin-top: 60px;
-    margin-left: 50%;
+    
     border: black 2px solid;
-    min-width: auto;
+    width: 800px;
+    position:absolute;
+    left: 50%
 }
 
 #searchBtn{
@@ -23,10 +25,30 @@ body {
 }
 .card{
     width: 800px;
-    position: absolute;
-    left: 35%;
     background-color: whitesmoke;
+    position:absolute;
+    border: black 2px solid;
+    
+    left: 50%
 }
 .brand-logo {
     height: auto;
   }
+.page-footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.position{
+    position: relative;
+}
+.bottom {
+    font-family: 'Orbitron', sans-serif;;
+}
+#modal{
+    padding:20px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 10px;
+}

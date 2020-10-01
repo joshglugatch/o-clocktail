@@ -11,7 +11,7 @@ $(document).ready(function () {
         }).then(function (response) {
             console.log(response);
 
-    
+      
             var responsiveImg = $(".drinkImgRes");
             var drinkName = $(".drinkName");
             var ingredientlist = $(".ingredientlist");

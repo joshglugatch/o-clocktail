@@ -51,13 +51,12 @@
           <li><a href="search.html" class="#000000 black waves-light btn"><i class="material-icons left">search</i>Search</a></a></li> 
       </ul>
       </div>
-    </nav>
     <ul class="sidenav" id="mobile-demo">
-      <a href="index.html"><img class="brand-logo center responsive-img"  src="Logo_4.PNG"></a>
       <li><a href="index.html" class="#000000 black waves-light btn"><i class="material-icons left">home</i>Home</a></a></li>
       <li><a href="featured.html" class="#000000 black waves-light btn"><i class="material-icons left">local_bar</i>Featured Drinks</a></a></li>
       <li><a href="search.html" class="#000000 black waves-light btn"><i class="material-icons left">search</i>Search</a></a></li> 
   </ul>
+</nav>
  
     <!-- Page Layout here -->
 <div class="background">
@@ -126,7 +125,7 @@
   <div class="footer-copyright">
       <div id="joke" class="container center">
       </div>
-      <span class="grey-text">O'Clocktail 2020</span>
+      <p style="margin-right: 20px;" class="grey-text">O'Clocktail 2020</p>
    </div>
 </footer>
      
@@ -170,9 +169,12 @@
 
 $(document).ready(function(){
     $('.carousel').carousel();
-  });
+    $(".sidenav").sidenav();
       
-</script> 
+  });
+
+</script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </body>
 </html>

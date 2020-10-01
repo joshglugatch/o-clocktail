@@ -45,14 +45,12 @@
           <li><a href="search.html" class="#000000 black waves-light btn"><i class="material-icons left">search</i>Search</a></a></li> 
       </ul>
       </div>
-
     <ul class="sidenav" id="mobile-demo">
-      <a href="index.html"><img class="brand-logo center responsive-img"  src="Logo_4.PNG"></a>
       <li><a href="index.html" class="#000000 black waves-light btn"><i class="material-icons left">home</i>Home</a></a></li>
       <li><a href="featured.html" class="#000000 black waves-light btn"><i class="material-icons left">local_bar</i>Featured Drinks</a></a></li>
       <li><a href="search.html" class="#000000 black waves-light btn"><i class="material-icons left">search</i>Search</a></a></li> 
   </ul>
-    </nav>
+</nav> 
  
     <!-- Page Layout here -->
 <section>
@@ -153,7 +151,11 @@
 
   </style>
 
-
+<script>
+  $(document).ready(function () {
+      $(".sidenav").sidenav();
+  });
+</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="featured.js"></script>

@@ -9,13 +9,13 @@ $(document).ready(function () {
     console.log(militaryTime)
 
 
-    var morning = ["Mimosa", "Bloody Mary", "Sangria", "Champagne Cocktail", "Irish Coffee", "Amaretto Tea", "Kioki Coffee", "Belini", "Tequila Sunrise"];
+    var morning = ["Mimosa", "Bloody Mary", "Sangria", "Champagne Cocktail", "Irish Coffee", "Amaretto Tea", "Kioki Coffee", "Bellini", "Tequila Sunrise","Jamaican Coffee"];
     var afternoon = ["Rum Punch", "Raspberry Julep", "Mint Julep", "Cosmopolitan Martini", "Planter's Punch", "Gin Basil Smash", "Tequila Slammer", "Vodka Fizz", "Mojito", "Death in the Afternoon"];
     var evening = ["Whiskey Sour", "Old Fashioned", "Manhattan", "Brandon and Will's Coke Float", "Dirty Martini", "Espresso Martini", "Penicillin", "Gin Sour", "Dark and Stormy", "Casino Royale"];
 
 
     i = Math.floor(Math.random() * 10);
-
+    console.log(i)
     var morningDrink = morning[i];
     var afternoonDrink = afternoon[i];
     var eveningDrink = evening[i];
@@ -52,7 +52,7 @@ $(document).ready(function () {
             var qtyArray = [x.strMeasure1, x.strMeasure2, x.strMeasure3, x.strMeasure4, x.strMeasure5, x.strMeasure6, x.strMeasure7, x.strMeasure8, x.strMeasure9, x.strMeasure10,]
             for (var i = 0; i <= 10; i++) {
                 if (qtyArray[i] !== null) {
-                    $("#ingredients").append(qtyArray[i])
+                    $("#ingredients").append(qtyArray[i] + " ")
                 }
                 if (ingArray[i] !== null) {
                     $("#ingredients").append(ingArray[i] + ", ")

@@ -56,3 +56,6 @@ body {
     color: whitesmoke;
     margin-top: 10px;
 }
+.animate__animated.animate__flash {
+    --animate-duration: 2s;
+}

@@ -40,7 +40,6 @@ $.ajax({
   })
 
 
-
 })
 
 var queryURL = "https://icanhazdadjoke.com/search?term=bar&limit=30"

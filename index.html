@@ -25,25 +25,19 @@
      <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">        
      <!--Let browser know website is optimized for mobile-->
      <!-- CSS Stylesheet -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
      <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <title>O'Clocktail</title>
 
-  
-
 </head>
-<style>
-
-
-</style>
 
 <body>
-
     <!-- Navbar goes here -->
     <nav>
       <div class="nav-wrapper  #000000 black">
-          <a href="index.html"><img class="brand-logo center responsive-img"  src="Logo_4.PNG"></a>
+        <a href="index.html"><img class="animate__animated animate__flash brand-logo center responsive-img" src="Logo_4.PNG"></a>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="left hide-on-med-and-down">
           <li><a href="index.html" class="#000000 black waves-light btn"><i class="material-icons left">home</i>Home</a></a></li>
@@ -51,75 +45,68 @@
           <li><a href="search.html" class="#000000 black waves-light btn"><i class="material-icons left">search</i>Search</a></a></li> 
       </ul>
       </div>
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="index.html" class="#000000 black waves-light btn"><i class="material-icons left">home</i>Home</a></a></li>
-      <li><a href="featured.html" class="#000000 black waves-light btn"><i class="material-icons left">local_bar</i>Featured Drinks</a></a></li>
-      <li><a href="search.html" class="#000000 black waves-light btn"><i class="material-icons left">search</i>Search</a></a></li> 
-  </ul>
-</nav>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html" class="#000000 black waves-light btn"><i class="material-icons left">home</i>Home</a></a></li>
+        <li><a href="featured.html" class="#000000 black waves-light btn"><i class="material-icons left">local_bar</i>Featured Drinks</a></a></li>
+        <li><a href="search.html" class="#000000 black waves-light btn"><i class="material-icons left">search</i>Search</a></a></li> 
+      </ul>
+    </nav> 
  
     <!-- Page Layout here -->
-<div class="background">
-    <div class="row">
+<section>
+  <div class="background">
+  <header class="bottom">
+    <h2 class="doth time white-text center">Featured Drink of the Hour</h2>
+    <!-- <p class='time white-text center'></p> -->
+  </header>
 
-      <div class="col s12 m4 l3"> <!-- Note that "m4 l3" was added -->
-        <!-- Grey navigation panel
 
-              This content will be:
-          3-columns-wide on large screens,
-          4-columns-wide on medium screens,
-          12-columns-wide on small screens  -->
+      <div class="position row">
+        <div class="col s12 m4 l2"></div>
+        <div class="col s12 m4 l8"></div>
+        <div class="row">
+            <div class="col s12 m6 center">
+                <div class="center card large horizontal">
+                    <div class="card-image">
+                        <img id="cardImage">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h2 class="header bottom" id="drinkName"></h2>
+                            <p id="instructions"></p>
+                                <h5 id="ingr"></h5>
+                            <ul id="ingredients"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <div class="col s12 m4 l2"></div>
+        </div>
 
+    <!-- <div class="row body">
+      <div class="col s12 m4 l2"><p></p></div>
+      
+      <div class="col s12 m4 l8 center"><p></p></div>
+      <div class="card body"> 
+          <div class="card-action"> 
+
+            <br>
+              <div class="col s6">
+              <div class = "drinkName"></div>
+              <div class = "ingredientlist"></div>
+              <div class = "instructionList"></div>
+              </div>
+              <div class="col s6">
+                <img class="responsive-img drinkImgRes">
+              </div>
+          </div>
+      </div>
       </div>
 
-       <div class="col s12 m6 l6"> <!-- Note that "m8 l9" was added -->
-       <!-- Teal page content -->
-<section class = "bg full width">
-    <div class="carousel carousel-slider center">
-        <div class="carousel-fixed-item center">
-          <a class="btn waves-effect white grey-text darken-text-2">Click for recipe here!</a>
-        </div>
-        <div class="carousel-item red white-text" href="#one!"><img src="download-8.jpg" width= "350px" height="350px">
-          <h2>First Panel</h2>
-          <p class="white-black">This is your first panel</p>
-        </div>
-        <div class="carousel-item amber white-text" href="#two!"><img src="download-10.jpg" width= "350px" height="350px">
-          <h2>Second Panel</h2>
-          <p class="white-text">This is your second panel</p>
-        </div>
-        <div class="carousel-item green white-text" href="#three!"><img src="download-9.jpg" width= "350px" height="350px">
-          <h2>Third Panel</h2>
-          <p class="white-text">This is your third panel</p>
-        </div>
-        <div class="carousel-item blue white-text" href="#four!"><img src="download-7.jpg" width= "350px" height="350px">
-          <h2>Fourth Panel</h2>
-          <p class="white-text">This is your fourth panel</p>
-        </div>
-      </div>
-    <!-- added another column to center the carousel -->
-
-      </div>
-        </div>
-</section>  
-    <div class="col s12 m3 l2">
-<br>
-<br>
-<br>
-<div class="row"></div>
-<div class="row"></div>
-<div class="row"></div>
-<header class="bottom">
-  <h2 class="doth white-text center">Featured Drink of the Hour</h2>
-  <p class='time white-text center'></p>
-</header>
-              <!-- This content will be:
-          9-columns-wide on large screens,
-          8-columns-wide on medium screens,
-          12-columns-wide on small screens  --> 
-
-
-    </div>
-</div>
+      <div class="col s12 m4 l2"><p></p></div> -->
+  </div>
+</section>
 
 <footer class="page-footer">
   <div class="footer-copyright">
@@ -127,6 +114,7 @@
       </div>
       <p style="margin-right: 20px;" class="grey-text">O'Clocktail 2020</p>
    </div>
+</footer>
 </footer>
      
 
@@ -144,14 +132,42 @@
   height: auto;
 }
 
-.bottom {
-    font-family: 'Orbitron', sans-serif;;
+.card{
+    width: 700px;
+    position: absolute;
+    left: 35%;
+    background-color: whitesmoke;
+    right: 100%;
 }
 
-.carousel-item {
-  padding-right: 50%;
-  margin: 50px;
-  margin-right: 10px;
+.btn{
+    background-color: black;
+    margin-left: 50%;
+    margin: 3%;
+}
+
+.randomizebtn {
+    width: 180px;
+    margin-left: 35%;
+}
+
+.drinkName {
+    font-family:'Orbitron', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+.ingredientlist {
+    font-family:'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.instructionList {
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.bottom {
+    font-family: 'Orbitron', sans-serif;;
 }
 
 .page-footer {
@@ -160,20 +176,16 @@
     bottom: 0px;
     width: 100%;
 }
+.animate__animated.animate__flash {
+    --animate-duration: 2s;
+}
+
 
   </style>
   
     <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
       <script src="script.js"></script>
-<script>
 
-$(document).ready(function(){
-    $('.carousel').carousel();
-    $(".sidenav").sidenav();
-      
-  });
-
-</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </body>

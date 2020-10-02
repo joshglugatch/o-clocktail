@@ -8,9 +8,9 @@ body {
 #searchInput{
     background-color: whitesmoke;
     margin-top: 60px;
-    
+    padding-left: 20px;
     border: black 2px solid;
-    width: 800px;
+    width: 780px;
     position:absolute;
     left: 50%
 }
@@ -61,4 +61,7 @@ body {
 }
 .brand-logo {
     margin-left: 4%;
+}
+#randomBtn{
+    margin-bottom: 100px;
 }

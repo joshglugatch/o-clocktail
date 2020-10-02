@@ -27,7 +27,7 @@ $.ajax({
           var qtyArray = [x.strMeasure1,x.strMeasure2,x.strMeasure3,x.strMeasure4,x.strMeasure5,x.strMeasure6,x.strMeasure7,x.strMeasure8,x.strMeasure9,x.strMeasure10,]
           for(var i = 0; i <= 10; i++){
             if(qtyArray[i] !== null){
-              $("#ingredients").append(qtyArray[i])
+              $("#ingredients").append(qtyArray[i] + " ")
             }
             if(ingArray[i] !== null){
               $("#ingredients").append(ingArray[i]+", ")

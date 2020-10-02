@@ -2,6 +2,7 @@
 $(document).ready(function () {
     $(".sidenav").sidenav();
 
+
     var currentTime = moment().format('h');
     $('.time').text(currentTime + " " + "   o'Clocktail");
 

@@ -59,3 +59,14 @@ body {
 .animate__animated.animate__flash {
     --animate-duration: 2s;
 }
+.centerS {
+    width: 110%;
+}
+#searchInput {
+    width: 106%;
+    margin-top: 10%;
+
+}
+.brand-logo {
+    margin-left: 4%;
+}

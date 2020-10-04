@@ -78,7 +78,7 @@ To view the live website, please navigate to the **Deployed Link** below or  [cl
 **Josh Glugatch** 
 
 - [Github](https://github.com/joshglugatch)
-- [LinkedIn](https://www.linkedin.com/in/                      )
+- [LinkedIn](www.linkedin.com/in/joshua-glugatch)
 
 <br> 
 

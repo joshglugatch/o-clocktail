@@ -60,7 +60,7 @@ To view the live website, please navigate to the **Deployed Link** below or  [cl
 
 ## Deployed Link
 
-* [See Live Site](https://kellystone4.github.io/o-clocktail/index.html)
+* [See Live Site](https://joshglugatch.github.io/o-clocktail/)
 
 
 <br>

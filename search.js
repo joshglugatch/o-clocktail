@@ -44,6 +44,7 @@ $.ajax({
 
 $("#randomBtn").on("click", function(event){
   event.preventDefault();
+  $("#modal").hide();
   $("#ingredients").empty();
   $("#ingr").text("Ingredients:")
   var drink = $("#searchInput").val();

@@ -14,6 +14,7 @@ Are you a broke college student? Suffering from boredom? Lacking creativity? Wel
 
 The O'Clocktail website features a new "Drink of the Hour" cocktail recipe every hour for ideas to make in the comfort of your own home! Not interested in the "Drink of the Hour" option? Search your favorite drink in the search tab. Looking to be adventurous and get creative? Click "SURPRISE ME!" and try one (or many) of our random cocktail recipe selections!   
 
+![exampleGif](projectdemo.gif)
 
 <br>
 
@@ -30,7 +31,8 @@ The O'Clocktail website features a new "Drink of the Hour" cocktail recipe every
 
 ## Coding Process
 
-
+We started with creating the design and layout of the website. Then, we worked with on getting the APIs to work with our web application.
+In the end, we tested and fixed minor bugs, our layout and coding issues together as a group.
 
 
 <br>
